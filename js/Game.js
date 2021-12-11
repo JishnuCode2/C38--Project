@@ -129,7 +129,7 @@ class Game {
          }}
       
       
-         const finishLine = height+330;
+         const finishLine = height+360;
 
          if (player.positionY > finishLine) {
            gameState = 2;
@@ -213,5 +213,9 @@ class Game {
   }
 
   showRank(){}
+  end(){
+    console.log("Game Ended");
+    console.log("Your Rank : " + player.rank);
+ }
 }
 
