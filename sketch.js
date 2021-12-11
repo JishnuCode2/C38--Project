@@ -38,7 +38,6 @@ function draw() {
   }
   if (gameState === 2) {
     game.showLeaderboard();
-    game.end()
   }
 }
 
